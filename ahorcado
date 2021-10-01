@@ -322,13 +322,6 @@ while intentos > -1:
     while len(letters_guessed) > len(secret_word) :
         del letters_guessed[-1]
 
-
-
-
-
-
-
-    print(secret_word)
     print(get_guessed_word(secret_word, letters_guessed))
     print("Te quedan ", intentos, " intentos.")
     print("Recuerde ingresar una sola letra en cada turno.")
@@ -376,8 +369,7 @@ while intentos > -1:
     if cadena == letters_guessed:
         print("Felicidades, la palabra ha sido adivinada")
         break
-    print(cadena)
-    print(letters_guessed)
+
 
 
 
